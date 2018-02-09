@@ -10,7 +10,9 @@ Use [nvm](https://github.com/creationix/nvm) to install Node.js if you do not al
 $ npm install -g nano-mass-tx
 ```
 
-As shown below, you will be prompted for the parameters of this
+As shown below, you will be prompted for the parameters of the process. You may exit with Ctrl+C or Ctrl+D (at prompts) at any time and resume progress by speciying the same output file.
+
+If for some reason your balance is not returned at the end of the sequence, you may import the seed from the output file into a wallet and recover the funds.
 
 ```sh
 $ nano-mass-tx test.json
@@ -55,3 +57,7 @@ Acquired 200 peers in 10000 ms
 All messages sent!
 
 ```
+
+## License
+
+MIT
