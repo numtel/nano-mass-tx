@@ -72,7 +72,7 @@ function handler(hashData) {
       if(isNaN(input))
         throw new Error('please input number');
 
-      input = (Math.round(input/2)*2) + 1;
+      input = (Math.floor(input/2)*2) + 1;
       if(input < 3) input = 3;
 
       hashData.msgCount = input;

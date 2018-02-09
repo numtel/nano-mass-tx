@@ -1,6 +1,6 @@
 {
   "name": "nano-mass-tx",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Send transactions back and forth to load the network",
   "main": "index.js",
   "scripts": {

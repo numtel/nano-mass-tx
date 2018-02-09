@@ -4,7 +4,7 @@ With all the talk of Nano Currency network stress testing, there should be a sim
 
 ## Installation and Usage
 
-Use [nvm](https://github.com/creationix/nvm) to install Node.js if you do not already have it installed.
+Use [nvm](https://github.com/creationix/nvm) to install Node.js if you do not already have it installed. Install the package globally:
 
 ```sh
 $ npm install -g nano-mass-tx
@@ -13,6 +13,8 @@ $ npm install -g nano-mass-tx
 As shown below, you will be prompted for the parameters of the process. You may exit with Ctrl+C or Ctrl+D (at prompts) at any time and resume progress by speciying the same output file.
 
 If for some reason your balance is not returned at the end of the sequence, you may import the seed from the output file into a wallet and recover the funds.
+
+Start the process, specifying an output file that will be saved to each at update or resumed from in later instances:
 
 ```sh
 $ nano-mass-tx test.json
