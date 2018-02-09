@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 const fs = require('fs');
 const crypto = require('crypto');
 const readline = require('readline');
@@ -65,7 +66,7 @@ function handler(hashData) {
       input: process.stdin,
       output: process.stdout
     });
-    rl.question('How many tx to send (except for final return to recipient)? (Odd number greater than 3)', input => {
+    rl.question('How many transactions to send? (not counting the final return transaction, will be rounded to nearest odd number greater than or equal to 3) ', input => {
       rl.close();
       input = parseFloat(input);
       if(isNaN(input))

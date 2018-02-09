@@ -20,7 +20,7 @@ error reading persistence file, starting from new
 A wallet with 2 accounts is generated randomly at the beginning. The test will transfer the balance of one account to the other and back again until the number of transactions desired has been reached. The first prompt asks how many transactions to send.
 
 ```
-How many tx to send (except for final return to recipient)? (Odd number greater than 3)10
+How many transactions to send? (not counting the final return transaction, will be rounded to nearest odd number greater than or equal to 3) 10
 
 ```
 
