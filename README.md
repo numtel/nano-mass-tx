@@ -2,6 +2,8 @@
 
 With all the talk of Nano Currency network stress testing, there should be a simple tool to take part yourself. This is that tool.
 
+No Node RPC is required thanks to the [nano-node NPM module](https://github.com/numtel/node-nano-node).
+
 ## Installation and Usage
 
 Use [nvm](https://github.com/creationix/nvm) to install Node.js if you do not already have it installed. Install the package globally:
@@ -25,7 +27,6 @@ A wallet with 2 accounts is generated randomly at the beginning. The test will t
 
 ```
 How many transactions to send? (not counting the final return transaction, will be rounded to nearest odd number greater than or equal to 3) 10
-
 ```
 
 You are then prompted to send an amount to the first account.
